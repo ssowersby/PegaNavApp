@@ -1,0 +1,103 @@
+p {
+    font-family: 'Helvetica Neue';
+    color: #FFFFFF;
+    display: none;
+    font-size: 1rem 
+}
+
+.arrow-icon {
+    width: 1rem;
+    height: 1rem;
+    display: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.create-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.create-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.header {
+    display: flex
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav {
+    height: 100%;
+    background-color: #000000;
+    width: 3rem;
+}
+
+.pega-logo {
+    width: 3rem;
+}
+
+.nav:hover {
+    width: 12rem
+}
+
+.nav:hover > .header > .pega-logo {
+    width: 5rem;
+}
+
+.nav:hover > .header > p {
+    display: flex;
+}
+
+.nav:hover > .card {
+    justify-content: flex-start;
+}
+
+.nav:hover > .card > .arrow-icon {
+    display: flex;
+    padding-left: 3rem
+}
+
+.nav:hover > .card > .icon {
+    padding-right: 1rem
+}
+
+.nav:hover > .card > p {
+    display: flex;
+}
+
+.nav:hover > .create-card > .create-button {
+    justify-content: flex-start;
+}
+
+.nav:hover > .create-card > .create-button > .arrow-icon {
+    display: flex;
+    padding-left: 3rem
+}
+
+.nav:hover > .create-card > .create-button > .icon {
+    padding-right: 1rem
+}
+
+.nav:hover > .create-card > .create-button > p {
+    display: flex;
+}
+
+.nav:hover > .create-card > .dropdown-option > p {
+    display: flex;
+}
